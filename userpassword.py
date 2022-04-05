@@ -30,7 +30,7 @@ password = input("Kérem a jelszót!")
 
 
 felhasznalo_nev = "bori99"
-jelszo = "Szivecske<3"
+jelszo = "Jelszo"
 
 while True:
   if user == felhasznalo_nev:
