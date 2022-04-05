@@ -1,0 +1,1 @@
+Készíts egy olyan függvényt, amely számokat kér be, a kilépő érték egy negatív szám legyen, majd egy listában tárolja el a számokat! A függvény a lista összegét számolja ki, tartalmazza a függvény meghívását is!
