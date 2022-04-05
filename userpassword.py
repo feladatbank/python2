@@ -8,7 +8,7 @@ Mind a sikertelen, mind a sikeres bejelentkezési kísérletekről üzenetet ír
 A program üzeneteinek megfogalmazásában kövesse az alábbi mintát:
 -----
 Adja meg a felhasználónevét! bori99
-Adja meg a jelszavát! Szivecske<3
+Adja meg a jelszavát! Jelszo
 Belépés engedélyezve.
 -----
 Adja meg a felhasználónevét! Bagaméri
