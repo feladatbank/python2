@@ -18,10 +18,10 @@ Adja meg a felhasználónevét! bori99
 Adja meg a jelszavát! hibásjelszó
 Belépés megtagadva.
 Adja meg a felhasználónevét! hibásfelhasználó
-Adja meg a jelszavát! Szivecske<3
+Adja meg a jelszavát! Jelszo
 Belépés megtagadva.
 Adja meg a felhasználónevét! bori99
-Adja meg a jelszavát! Szivecske<3
+Adja meg a jelszavát! Jelszo
 Belépés engedélyezve.
 '''
 
