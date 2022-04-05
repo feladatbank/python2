@@ -3,7 +3,7 @@ Bejelentkezés
 
 Írjon programot, amely azt vizsgálja, hogy egy felhasználó helyesen adja-e meg a jelszavát! 
 A program addig kérdezi újra a felhasználónév-jelszó párost, amíg a felhasználó mindkettőt hibátlanul meg nem adja. 
-A program egyetlen felhasználó (bori99) jelszavát (Szivecske<3) ismeri, csak ezt a párost fogadja el helyesként. 
+A program egyetlen felhasználó (bori99) jelszavát (Jelszo) ismeri, csak ezt a párost fogadja el helyesként. 
 Mind a sikertelen, mind a sikeres bejelentkezési kísérletekről üzenetet ír a képernyőre.
 A program üzeneteinek megfogalmazásában kövesse az alábbi mintát:
 -----
