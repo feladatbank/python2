@@ -1,0 +1,20 @@
+'''
+1. feladat 
+Hozz létre egy fájl-t "alap.txt" néven "UTF-8"-as  kódolással, majd hozzon létre egy listát a megadott szavakból és ezekből egy véletlenszerű szót csupa nagy betűkkel írjon bele az "alap.txt"-be.
+"Asztal", "Szék", "Tábla", "Ajtó", "Ablak"
+
+2. feladat
+Az előző feladatban létrehozott fájlba egy új sorba írasson ki egy véletlenszerű háromjegyű számot a [0:9] intervallummal
+"'''
+
+# Lehetséges megoldás
+
+import random
+lista = ["Asztal", "Szék", "Tábla", "Ajtó", "Ablak"]
+
+with open("alap.txt", "w", encoding="UTF-8") as f:
+  f.write(random.choice(lista).upper() + "\n")
+  i = 0
+  while i < 3:
+    f.write(str(random.randint(0, 9)))
+    i += 1
