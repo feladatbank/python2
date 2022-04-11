@@ -33,21 +33,22 @@ felhasznalo_nev = "bori99"
 jelszo = "Jelszo"
 
 while True:
-  if user == felhasznalo_nev:
-    print("Sikeres felhasználónév!")
-    break
-  if password == jelszo:
-    print("Sikeres jelszó")
-    break
-  if user == felhasznalo_nev and password == jelszo:
-    print("Most be vagy jelentkezve!" '/n' "Üdvözlünk!", felhasznalo_nev)
-    break
-  if user != felhasznalo_nev:
-    print("Sikertelen a felhasználónév!")
-    break
-  if password != jelszo:
-    print("Sikertelen a jelszó!")
-    break
-  if user != felhasznalo_nev and password != jelszo:
-    print("Sikertelen a jelszava, és a felhasználónév!")
-    break
+    if user == felhasznalo_nev and password == jelszo:
+        print("Most be vagy jelentkezve!" '/n' "Üdvözlünk!", felhasznalo_nev)
+        break
+    if user != felhasznalo_nev and password != jelszo:
+        print("Sikertelen a jelszava, és a felhasználónév!")
+        break
+    elif user == felhasznalo_nev:
+        print("Sikeres felhasználónév!")
+        break
+    elif password == jelszo:
+        print("Sikeres jelszó")
+        break
+    elif user != felhasznalo_nev:
+        print("Sikertelen a felhasználónév!")
+        break
+    elif password != jelszo:
+        print("Sikertelen a jelszó!")
+        break
+
