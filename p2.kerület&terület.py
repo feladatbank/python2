@@ -14,6 +14,6 @@ class Negyzet:
 
 negyzet1 = Negyzet(10)
 
-print(f"A négyzet területe: {negyzet1.terulet()} egység")
+print(f"A négyzet területe: {negyzet1.terulet()} cm")
 
-print(f"A négyzet kerülete: {negyzet1.kerulet()} egység")
+print(f"A négyzet kerülete: {negyzet1.kerulet()} cm")
