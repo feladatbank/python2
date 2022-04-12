@@ -5,6 +5,10 @@ Hozz létre egy fájl-t "alap.txt" néven "UTF-8"-as  kódolással, majd hozzon 
 
 2. feladat
 Az előző feladatban létrehozott fájlba egy új sorba írasson ki egy véletlenszerű háromjegyű számot a [0:9] intervallummal
+
+Minta:
+AJTÓ
+561
 "'''
 
 # Lehetséges megoldás
