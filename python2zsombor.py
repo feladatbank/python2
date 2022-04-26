@@ -1,6 +1,5 @@
 # Csinálj egy függvényt / funkciót aminek meg lehet adni 5 számot, ezután vissza adja az 5 szám közül a legkissebb és a legnagyobb számot és az összegüket.
 
-
 def szam(a, b, c, d, e):
     lista = [a, b, c, d, e]
     lista.sort()
