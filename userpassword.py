@@ -25,17 +25,13 @@ Adja meg a jelszavát! 1234
 Belépés engedélyezve.
 '''
 
-user = input("Kérem a felhasználó nevét!")
-password = input("Kérem a jelszót!")
+user = input("Kérem a felhasználó nevét: ")
+password = input("Kérem a jelszót: ")
 
 felhasznalo_nev = "sis"
 jelszo = "1234"
 
-while True:
-    felhaszn = input('Kérem a felhasználónevét: ')
-    jelsz = input('Kérem a jelszót: ')
-    if felhaszn == felhasznalonev and jelsz == jelszo:
-        print('Belépés engedélyezve!')
-        break
-    elif felhaszn or jelsz != felhasznalonev and jelszo:
-        print('Belépés megtagadva!')
+if user == felhasznalo_nev and password == jelszo:
+    print('Belépés engedélyezve!')
+else:
+    print('Belépés megtagadva!')
