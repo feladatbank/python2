@@ -9,9 +9,7 @@ Az előző feladatban létrehozott fájlba egy új sorba írasson ki egy véletl
 Minta:
 AJTÓ
 561
-"'''
-
-# Lehetséges megoldás
+'''
 
 import random
 lista = ["Asztal", "Szék", "Tábla", "Ajtó", "Ablak"]
