@@ -28,7 +28,6 @@ Belépés engedélyezve.
 user = input("Kérem a felhasználó nevét!")
 password = input("Kérem a jelszót!")
 
-
 felhasznalo_nev = "sis"
 jelszo = "1234"
 
